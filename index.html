@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/favicon.PNG" />
+	<meta name="discription" content="This game is about a manga called One peice">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/gamemanager.js"></script>
+	<script src="js/player.js"></script>
+	<script src="js/enemy.js"></script>
+	<title>ONEPIECE</title>
+
+</head>
+<body>
+	<div class="header">
+		<p>Fight to find the greatest treasure <b>ONEPIECE!!</b></p>
+		<h3>Choose your charecter</h3>
+		
+	</div>
+
+	<div class="interface">
+		<a href="#" onclick="GameManager.setGameStart('Luffy')"> 
+			<!--call function for perticular object --> 
+			<img src="img/player/luffy.png" alt="Leader">
+			<div>
+				<h3>Monkey D.Luffy</h3>
+				<p>Heigher health and stamina .However their streanth also makes them clumsier and slower</p>
+			</div>
+
+		</a>
+		<a href="#"  onclick="GameManager.setGameStart('Zoro')">
+			<img src="img/player/zoro.png" alt="Sub-leader">
+			<div>
+				<h3>Rononoa Zoro</h3>
+				<p>Heigher health and stamina .However their streanth also makes them clumsier and slower</p>
+			</div>
+
+		</a>
+		<a href="#"  onclick="GameManager.setGameStart('Sanji')">
+			<img src="img/player/sanji.png" alt="Sub-leader">
+			<div>
+				<h3>Vinsmoke Sanji</h3>
+				<p>Heigher health and stamina .However their streanth also makes them clumsier and slower</p>
+			</div>
+
+		</a>
+		<a href="#"  onclick="GameManager.setGameStart('Franky')">
+			<img src="img/player/franky.png" alt="Warrior">
+			<div>
+				<h3>Cyborg Franky</h3>
+				<p>Heigher health and stamina .However their streanth also makes them clumsier and slower</p>
+			</div>
+
+		</a>
+		<a href="#"  onclick="GameManager.setGameStart('Law')">
+			<img src="img/player/law.png" alt="Partial-leader">
+			<div>
+				<h3>Trafagler Law</h3>
+				<p>Heigher health and stamina .However their streanth also makes them clumsier and slower</p>
+			</div>
+
+		</a>
+		
+	</div>
+	<div class="actions">
+		
+	</div>
+	<div class="arena">
+		
+	</div>
+	<div class="enemy">
+		
+	</div>
+
+</body>
+</html>
